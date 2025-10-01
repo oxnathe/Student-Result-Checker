@@ -1,0 +1,29 @@
+{
+  "name": "student-result-checker",
+  "version": "1.0.0",
+  "description": "GROUP 1 MINI PROJECT",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxnathe/Student-Result-Checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oxnathe/Student-Result-Checker/issues"
+  },
+  "homepage": "https://github.com/oxnathe/Student-Result-Checker#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
