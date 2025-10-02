@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Result Checker</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Result Checker</h1>
+
+    <% if (message) { %>
+      <p style="color: red;"><%= message %></p>
+    <% } %>
+
+    <form action="/check" method="POST">
+      <label for="matricNo">Enter Matric Number:</label>
+      <input type="text" id="matricNo" name="matricNo" required>
+      <button type="submit">Check Result</button>
+    </form>
+
+    <p><a href="/admin"> Admin Dashboard</a></p>
+  </div>
+</body>
+</html>
