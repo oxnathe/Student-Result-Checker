@@ -7,7 +7,7 @@ A simple Node.js web application that allows students to check their results by 
 
 ```
 Student-Results-Checker/
-├── server.js           # Express server with routing logic
+├── app.js           # Express server with routing logic
 ├── package.json        # Project dependencies and scripts
 ├── results.json        # Student database (JSON format)
 ├── views/
@@ -56,12 +56,12 @@ Open your web browser and go to: `http://localhost:3000`
 
 The application includes 10  sample students for testing but 10 for readme sample:
 
-| studentMatricNo |    StudentName |      Department      |  studentEmail   |  Course(s)   |      Score(s) |
+| Matric |    StudentName |      Department      |  studentEmail   |  Course   |      Score |
 |---------------|--------------|------|-------------|-------|-------------|------------------|-----------
 |  BD/2025/TC3/125 | Owolola Gabriel |Computer Science |owololagabriel@gmail.com |Introduction to Algorithm | 55 |
-|  BD/2025/TC3/006 | Adebayo Emmanuel |  Computer Science | adebayoemmanuel@outlook.com | OOP  | 70 |
+|  BD/2025/TC3/006 | Adebayo Emmanuel |  Data Science | adebayoemmanuel@outlook.com | OOP  | 70 |
 |  BD/2025/TC3/040 | Onuoha Deborah |Computer Science |onuohdeborah23@gmail.com | Software Development | 93 |
-|  BD/2025/TC3/159 | Wilson Utieyin |Computer Science | utiwilx@gmail.com |Introduction to Algorithm | 79 |
+|  BD/2025/TC3/159 | Wilson Utieyin |Mathematics | utiwilx@gmail.com |Introduction to Algorithm | 79 |
 |  BD/2025/TC3/004 | Abdulwaasi Saliu  |Computer Science | adedayo.williams@gmail.com |Data and Logic Management| 83 |
 |  BD/2025/TC3/008 | Adedayo Williams |Computer Science | oluwaseyiashiru7@gmail.com | Data science | 91 |
 |  BD/2025/TC3/010 | Adeyoola Adebayo |Computer Science |adeaboyade@gmail.com | Software engineering| 85 |
