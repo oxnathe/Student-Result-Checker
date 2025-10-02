@@ -8,20 +8,24 @@
 </head>
 <body>
   <div class="container">
-    <h1>Result for <%= student.name %></h1>
+    <h1>Result for <%= student.studentName %></h1>
     <p><strong>Matric No:</strong> <%= student.studentMatricNo %></p>
+    <p><strong>Department:</strong> <%= student.department %></p>
+    <p><strong>Email:</strong> <%= student.studentEmail %></p>
 
     <h2>Courses</h2>
     <ul>
       <% courses.forEach(course => { %>
-        <li><%= course.code %> - <%= course.score %> (<%= course.grade %>)</li>
+        <li><%= course.courseName %> - <%= course.score %> (<%= course.grade %>)</li>
       <% }) %>
     </ul>
 
-    <h3>Summary</h3>
-    <p>Total Score: <%= summary.totalScore %></p>
-    <p>Average: <%= summary.average %></p>
-    <p>Final Grade: <%= summary.finalGrade %></p>
+    <<h3>Summary</h3>
+<p><strong>Total Score:</strong> <%= summary.totalScore %></p>
+<p><strong>Average:</strong> <%= summary.average.toFixed(2) %></p>
+<p><strong>Final Grade:</strong> <%= summary.finalGrade %></p>
+<p><strong>Comment:</strong> <%= summary.comment %></p>
+
 
     <p><a href="/">🔙 Go back</a></p>
   </div>
