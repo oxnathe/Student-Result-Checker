@@ -5,11 +5,10 @@
     "department": "Computer Science",
     "studentEmail": "owololagabriel@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 90 },
-      { "courseName": "Object Oriented Programming", "score": 78 },
-      { "courseName": "Data Science", "score": 87 },
-      { "courseName": "Logic and Database Management", "score": 75 },
-      { "courseName": "Software Engineering", "score": 80 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 90
+      }
     ]
   },
   {
@@ -18,11 +17,10 @@
     "department": "Computer Science",
     "studentEmail": "onuohadeborah23@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 83 },
-      { "courseName": "Object Oriented Programming", "score": 62 },
-      { "courseName": "Data Science", "score": 67 },
-      { "courseName": "Logic and Database Management", "score": 78 },
-      { "courseName": "Software Engineering", "score": 93 }
+      {
+        "courseName": "Software Engineering",
+        "score": 93
+      }
     ]
   },
   {
@@ -31,11 +29,10 @@
     "department": "Computer Science",
     "studentEmail": "utiwilx@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 68 },
-      { "courseName": "Object Oriented Programming", "score": 78 },
-      { "courseName": "Data Science", "score": 73 },
-      { "courseName": "Logic and Database Management", "score": 91 },
-      { "courseName": "Software Engineering", "score": 79 }
+      {
+        "courseName": "Software Engineering",
+        "score": 79
+      }
     ]
   },
   {
@@ -44,11 +41,10 @@
     "department": "Computer Science",
     "studentEmail": "wasiusoliu@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 69 },
-      { "courseName": "Object Oriented Programming", "score": 78 },
-      { "courseName": "Data Science", "score": 73 },
-      { "courseName": "Logic and Database Management", "score": 80 },
-      { "courseName": "Software Engineering", "score": 79 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 69
+      }
     ]
   },
   {
@@ -57,11 +53,10 @@
     "department": "Computer Science",
     "studentEmail": "adedayo.williams@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 71 },
-      { "courseName": "Object Oriented Programming", "score": 70 },
-      { "courseName": "Data Science", "score": 83 },
-      { "courseName": "Logic and Database Management", "score": 80 },
-      { "courseName": "Software Engineering", "score": 79 }
+      {
+        "courseName": "Data Science",
+        "score": 83
+      }
     ]
   },
   {
@@ -70,11 +65,10 @@
     "department": "Computer Science",
     "studentEmail": "oluwaseyiashiru7@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 79 },
-      { "courseName": "Object Oriented Programming", "score": 73 },
-      { "courseName": "Data Science", "score": 82 },
-      { "courseName": "Logic and Database Management", "score": 75 },
-      { "courseName": "Software Engineering", "score": 79 }
+      {
+        "courseName": "Software Engineering",
+        "score": 79
+      }
     ]
   },
   {
@@ -83,11 +77,10 @@
     "department": "Computer Science",
     "studentEmail": "adeaboyade@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 89 },
-      { "courseName": "Object Oriented Programming", "score": 73 },
-      { "courseName": "Data Science", "score": 85 },
-      { "courseName": "Logic and Database Management", "score": 78 },
-      { "courseName": "Software Engineering", "score": 90 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 89
+      }
     ]
   },
   {
@@ -96,11 +89,10 @@
     "department": "Computer Science",
     "studentEmail": "adeolatunjivictor@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 80 },
-      { "courseName": "Object Oriented Programming", "score": 73 },
-      { "courseName": "Data Science", "score": 85 },
-      { "courseName": "Logic and Database Management", "score": 75 },
-      { "courseName": "Software Engineering", "score": 70 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 80
+      }
     ]
   },
   {
@@ -109,11 +101,10 @@
     "department": "Computer Science",
     "studentEmail": "robinsoncharles28@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 69 },
-      { "courseName": "Object Oriented Programming", "score": 73 },
-      { "courseName": "Data Science", "score": 75 },
-      { "courseName": "Logic and Database Management", "score": 75 },
-      { "courseName": "Software Engineering", "score": 62 }
+      {
+        "courseName": "Software Engineering",
+        "score": 62
+      }
     ]
   },
   {
@@ -122,11 +113,10 @@
     "department": "Computer Science",
     "studentEmail": "tonydavjj@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 79 },
-      { "courseName": "Object Oriented Programming", "score": 62 },
-      { "courseName": "Data Science", "score": 65 },
-      { "courseName": "Logic and Database Management", "score": 75 },
-      { "courseName": "Software Engineering", "score": 82 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 79
+      }
     ]
   },
   {
@@ -135,11 +125,10 @@
     "department": "Computer Science",
     "studentEmail": "gafty@outlook.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 55 },
-      { "courseName": "Object Oriented Programming", "score": 62 },
-      { "courseName": "Data Science", "score": 70 },
-      { "courseName": "Logic and Database Management", "score": 75 },
-      { "courseName": "Software Engineering", "score": 80 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 55
+      }
     ]
   },
   {
@@ -148,11 +137,10 @@
     "department": "Computer Science",
     "studentEmail": "adebayoemmanuel@outlook.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 45 },
-      { "courseName": "Object Oriented Programming", "score": 82 },
-      { "courseName": "Data Science", "score": 70 },
-      { "courseName": "Logic and Database Management", "score": 75 },
-      { "courseName": "Software Engineering", "score": 95 }
+      {
+        "courseName": "Software Engineering",
+        "score": 95
+      }
     ]
   },
   {
@@ -161,11 +149,10 @@
     "department": "Computer Science",
     "studentEmail": "nanashittu@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 65 },
-      { "courseName": "Object Oriented Programming", "score": 82 },
-      { "courseName": "Data Science", "score": 86 },
-      { "courseName": "Logic and Database Management", "score": 55 },
-      { "courseName": "Software Engineering", "score": 65 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 65
+      }
     ]
   },
   {
@@ -174,11 +161,10 @@
     "department": "Computer Science",
     "studentEmail": "ololadeopemipo@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 75 },
-      { "courseName": "Object Oriented Programming", "score": 32 },
-      { "courseName": "Data Science", "score": 46 },
-      { "courseName": "Logic and Database Management", "score": 55 },
-      { "courseName": "Software Engineering", "score": 78 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 75
+      }
     ]
   },
   {
@@ -187,11 +173,10 @@
     "department": "Computer Science",
     "studentEmail": "designersflairenterprises@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 68 },
-      { "courseName": "Object Oriented Programming", "score": 55 },
-      { "courseName": "Data Science", "score": 58 },
-      { "courseName": "Logic and Database Management", "score": 65 },
-      { "courseName": "Software Engineering", "score": 78 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 68
+      }
     ]
   },
   {
@@ -200,11 +185,10 @@
     "department": "Computer Science",
     "studentEmail": "corneliuschiziterem@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 88 },
-      { "courseName": "Object Oriented Programming", "score": 65 },
-      { "courseName": "Data Science", "score": 58 },
-      { "courseName": "Logic and Database Management", "score": 65 },
-      { "courseName": "Software Engineering", "score": 68 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 88
+      }
     ]
   },
   {
@@ -213,11 +197,10 @@
     "department": "Computer Science",
     "studentEmail": "azu.akashili@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 58 },
-      { "courseName": "Object Oriented Programming", "score": 65 },
-      { "courseName": "Data Science", "score": 48 },
-      { "courseName": "Logic and Database Management", "score": 55 },
-      { "courseName": "Software Engineering", "score": 68 }
+      {
+        "courseName": "Introduction to Algorithms",
+        "score": 58
+      }
     ]
   },
   {
@@ -226,11 +209,10 @@
     "department": "Computer Science",
     "studentEmail": "paulabarbara@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 88 },
-      { "courseName": "Object Oriented Programming", "score": 75 },
-      { "courseName": "Data Science", "score": 58 },
-      { "courseName": "Logic and Database Management", "score": 65 },
-      { "courseName": "Software Engineering", "score": 68 }
+      {
+        "courseName": "Software Engineering",
+        "score": 68
+      }
     ]
   },
   {
@@ -239,11 +221,10 @@
     "department": "Computer Science",
     "studentEmail": "valentinevalentine@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 38 },
-      { "courseName": "Object Oriented Programming", "score": 60 },
-      { "courseName": "Data Science", "score": 58 },
-      { "courseName": "Logic and Database Management", "score": 65 },
-      { "courseName": "Software Engineering", "score": 68 }
+      {
+        "courseName": "Software Engineering",
+        "score": 68
+      }
     ]
   },
   {
@@ -252,11 +233,10 @@
     "department": "Computer Science",
     "studentEmail": "christopheradegoke@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 45 },
-      { "courseName": "Object Oriented Programming", "score": 33 },
-      { "courseName": "Data Science", "score": 58 },
-      { "courseName": "Logic and Database Management", "score": 65 },
-      { "courseName": "Software Engineering", "score": 70 }
+      {
+        "courseName": "Software Engineering",
+        "score": 70
+      }
     ]
   },
   {
@@ -265,11 +245,10 @@
     "department": "Computer Science",
     "studentEmail": "adododaniel@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 45 },
-      { "courseName": "Object Oriented Programming", "score": 33 },
-      { "courseName": "Data Science", "score": 58 },
-      { "courseName": "Logic and Database Management", "score": 65 },
-      { "courseName": "Software Engineering", "score": 70 }
+      {
+        "courseName": "Software Engineering",
+        "score": 70
+      }
     ]
   },
   {
@@ -278,11 +257,10 @@
     "department": "Computer Science",
     "studentEmail": "adodavidamaehuledodaniel@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 73 },
-      { "courseName": "Object Oriented Programming", "score": 85 },
-      { "courseName": "Data Science", "score": 38 },
-      { "courseName": "Logic and Database Management", "score": 65 },
-      { "courseName": "Software Engineering", "score": 40 }
+      {
+        "courseName": "Software Engineering",
+        "score": 40
+      }
     ]
   },
   {
@@ -291,11 +269,10 @@
     "department": "Computer Science",
     "studentEmail": "emeralduche@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 63 },
-      { "courseName": "Object Oriented Programming", "score": 75 },
-      { "courseName": "Data Science", "score": 48 },
-      { "courseName": "Logic and Database Management", "score": 50 },
-      { "courseName": "Software Engineering", "score": 55 }
+      {
+        "courseName": "Software Engineering",
+        "score": 55
+      }
     ]
   },
   {
@@ -304,11 +281,10 @@
     "department": "Computer Science",
     "studentEmail": "enitanshukrah@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Algorithms", "score": 53 },
-      { "courseName": "Object Oriented Programming", "score": 55 },
-      { "courseName": "Data Science", "score": 60 },
-      { "courseName": "Logic and Database Management", "score": 72 },
-      { "courseName": "Software Engineering", "score": 55 }
+      {
+        "courseName": "Software Engineering",
+        "score": 55
+      }
     ]
   },
   {
@@ -317,10 +293,10 @@
     "department": "Backend Engineering",
     "studentEmail": "estheroladunni@gmail.com",
     "courseDetails": [
-      { "courseName": "Introduction to Backend Engineering", "score": 56 },
-      { "courseName": "Object Oriented Programming", "score": 60 },
-      { "courseName": "Introduction to HTTP and Express", "score": 48 },
-      { "courseName": "Database Management with Mongoose", "score": 75 }
+      {
+        "courseName": "Database Management with Mongoose",
+        "score": 75
+      }
     ]
   }
 ]
