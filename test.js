@@ -1,4 +1,3 @@
-//A function to calculate the grade and remark according to each score
 const calculateGrade = (score) => {
   let grade = "";
   let remark = "";
@@ -26,20 +25,9 @@ const calculateGrade = (score) => {
   return `${grade} (${remark})`;
 };
 
-//Sample list of courses offered by a particular student
-const courseDetails = [
-  { courseName: "Introduction to Algorithms", score: 90 },
-  { courseName: "Object Oriented Programming", score: 78 },
-  { courseName: "Data Science", score: 87 },
-  { courseName: "Logic and Database Management", score: 75 },
-  { courseName: "Software Engineering", score: 50 },
-];
-
-//Function to display student's result
 const displayResults = (courseDetails) => {
   let totalScore = 0;
 
-  //Output line to display the number of courses offered by each student
   console.log(`\nNumber of courses offered: ${courseDetails.length}\n`);
 
   for (let count = 0; count < courseDetails.length; count++) {
@@ -58,4 +46,5 @@ const displayResults = (courseDetails) => {
   else return "Comment: To repeat the semester";
 };
 
-console.log(displayResults(courseDetails));
+// Export so app.js can use them
+export { calculateGrade, displayResults };
