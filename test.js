@@ -28,23 +28,26 @@ const calculateGrade = (score) => {
 const displayResults = (courseDetails) => {
   let totalScore = 0;
 
-  console.log(`\nNumber of courses offered: ${courseDetails.length}\n`);
-
-  for (let count = 0; count < courseDetails.length; count++) {
-    console.log(
-      `${courseDetails[count].courseName}, ${
-        courseDetails[count].score
-      }, ${calculateGrade(courseDetails[count].score)}`
-    );
-    totalScore += courseDetails[count].score;
+  for (let course of courseDetails) {
+    totalScore += course.score;
   }
 
   let averageScore = totalScore / courseDetails.length;
-  console.log(`\nAverage score = ${averageScore}\n`);
 
-  if (averageScore > 60) return `Comment: Proceed to the next semester`;
-  else return "Comment: To repeat the semester";
+  // Decide comment
+  let comment =
+    averageScore > 60
+      ? "Proceed to the next semester"
+      : "Repeat the semester";
+
+
+  return {
+    totalScore,
+    average: averageScore,
+    finalGrade: calculateGrade(averageScore),
+    comment
+  };
 };
 
-// Export so app.js can use them
+// Export
 export { calculateGrade, displayResults };
