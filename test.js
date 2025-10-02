@@ -1,4 +1,3 @@
-// file.js
 const calculateGrade = (score) => {
   let grade = "";
   let remark = "";
@@ -26,7 +25,6 @@ const calculateGrade = (score) => {
   return `${grade} (${remark})`;
 };
 
-// Display results
 const displayResults = (courseDetails) => {
   let totalScore = 0;
 
