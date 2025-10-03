@@ -22,7 +22,7 @@ app.post("/check", async (req, res) => {
   const matricNo = (req.body.matricNo || "").trim();
 
   if (!matricNo) {
-    return res.render("result", { message: "Please enter a matric number" });
+    return res.render("index", { message: "Please enter a matric number" });
   }
 
   try {
@@ -34,7 +34,7 @@ app.post("/check", async (req, res) => {
     );
 
     if (!student) {
-      return res.render("result", { message: "Student not found" });
+      return res.render("index", { message: "Student not found" });
     }
 
     const courses = student.courseDetails.map((c) => ({
