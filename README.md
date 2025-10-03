@@ -63,7 +63,7 @@ The application includes 10  sample students for testing but 10 for readme sampl
 |  BD/2025/TC3/040 | Onuoha Deborah |Computer Science |onuohdeborah23@gmail.com | Software Development | 93 |
 |  BD/2025/TC3/159 | Wilson Utieyin |Mathematics | utiwilx@gmail.com |Introduction to Algorithm | 79 |
 |  BD/2025/TC3/004 | Abdulwaasi Saliu  |Computer Science | adedayo.williams@gmail.com |Data and Logic Management| 83 |
-|  BD/2025/TC3/008 | Adedayo Williams |Computer Science | oluwaseyiashiru7@gmail.com | Data science | 91 |
+|  BD/2025/TC3/008 | Adedayo Williams |Computer Science | adedayo.williams09@gmail.com | Data science | 91 |
 |  BD/2025/TC3/010 | Adeyoola Adebayo |Computer Science |adeaboyade@gmail.com | Software engineering| 85 |
 |  BD/2025/TC3/023 | Olatunji Bisola |Computer Science | adeoltunjivictor@gmail.com | OOP | 95 |
 |  BD/2025/TC3/025 | Charles Robinson |Computer Science |robinsoncharles28@gmail.com |Introduction to Algorithm | 75 |
@@ -167,3 +167,18 @@ views/Ejs : installed using npm i ejs for templating engine.
 
 # Testing
 Postman
+
+Testing the GET Request (Home Page)
+Method: GET
+URL: http://localhost:3000/
+What to expect: HTML response with index page
+
+Testing the POST Request (Check Results)
+Method: POST
+URL: http://localhost:3000/check
+Headers: Content-Type: application/x-www-form-urlencoded
+Body:
+Select "x-www-form-urlencoded"
+Key: matricNo
+Value: [any matric number from results.json]
+Expected Responses: Status: 200 OK, Response: HTML page with student results
