@@ -171,7 +171,7 @@ Postman
 Testing the GET Request (Home Page)
 Method: GET
 URL: http://localhost:3000/
-What to expect: HTML response with your index page
+What to expect: HTML response with index page
 
 Testing the POST Request (Check Results)
 Method: POST
