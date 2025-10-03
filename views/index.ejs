@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Result Checker</title>
+  <link rel="stylesheet" href="../style.css">
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex  items-center justify-center h-screen bg-gray-100">
+  
+    
+
+    <% if (message) { %>
+      <p style="color: red;"><%= message %></p>
+    <% } %>
+
+
+  
+      <form method="post" action="/check" class=" bg-white w-full rounded-lg shadow-md max-w-md">
+        
+    <h2 class="text-black font-bold mb-6 san text-center md:text-2xl sm:text-xl">STUDENT RESULT CHECKER</h2>
+    
+        <input type="text" placeholder="enter your matric number e.g BD/2025/TC3" name="matricNo" required class="w-full rounded-md border-2 mb-4 p-2 border-gray-300">
+        <div class="flex justify-end">
+        <button type="submit" class="bg-blue-700 text-white font-semibold text-md w-auto rounded mb-4 px-4 py-2 hover:bg-blue-600 mr-3">
+            check result
+        </button>
+        </div>
+    </form>
+  
+</body>
+</html>
